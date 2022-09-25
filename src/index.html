@@ -8,13 +8,18 @@
   </head>
   <body>
     <header class="search-block">
-      <nav class="search-navigation container">
-        <input class="search-input" type="text" placeholder="Search images...">
+      <form class="search-navigation container" id="search-form">
+        <input 
+        class="search-input" 
+        type="text"
+        name="searchQuery"
+        autocomplete="off"  
+        placeholder="Search images...">
         <button class='search-button' type="submit">
           Search
           <img src="./images/search.png" alt="search">
         </button>
-      </nav>
+      </form>
     </header>
     <main class="main-block"></main>
     <script type="module" src="./index.js"></script>
