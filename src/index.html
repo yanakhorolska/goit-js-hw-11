@@ -17,11 +17,19 @@
         placeholder="Search images...">
         <button class='search-button' type="submit">
           Search
-          <img src="./images/search.png" alt="search">
+          <img class="search-icon" src="./images/search.png" alt="search">
         </button>
       </form>
     </header>
-    <main class="main-block"></main>
-    <script type="module" src="./index.js"></script>
+    
+    <main class="main-block">
+      <div class="gallery container">
+  <!-- Карточки изображений -->
+    </div>
+    <button type="button" class="load-more visually-hidden">Load more</button>
+    <button type="button" class="on-top btn-to-top--visible">Top</button>
+    </main>
+    
+    <script type="module" src="index.js"></script>
   </body>
 </html>
